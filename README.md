@@ -14,6 +14,7 @@ Import the `arabdialect` class:
 `from arabicdialect import arabicdialect`
 
 Then instantiate the classifier with one of these values: **egyptian**, **iraqi** and **multi**. So for example:
+
 `ar = arabdialect('multi')`
 
 There are two methods available: **classify_one** and **classify_many**. The former takes a single string as its argument, the latter takes an array of documents.
