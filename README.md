@@ -4,14 +4,18 @@ This is an automatic classification approach to identifying Arabic dialects. At 
 
 ## Prerequisites
 * Python2.7
-* [scikit-learn](http://scikit-learn.org/) 0.19.1: `pip install sklearn`
+* [scikit-learn](http://scikit-learn.org/) 0.19.1: 
+`pip install sklearn`
 
 ## Usage guide
 
-Import the `arabdialect` class:
+Import the `arabdialect` claass:\
+
 `from arabicdialect import arabicdialect`
+
 Then instantiate the classifier with one of these values: **egyptian**, **iraqi** and **multi**. So for example:
 `ar = arabdialect('multi')`
+
 There are two methods available: **classify_one** and **classify_many**. The former takes a single string as its argument, the latter takes an array of documents.
 
 ### Egyptian
