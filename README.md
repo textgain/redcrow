@@ -9,7 +9,7 @@ This is an automatic classification approach to identifying Arabic dialects. At 
 
 ## Usage guide
 
-Import the `arabdialect` claass:\
+Import the `arabdialect` class:
 
 `from arabicdialect import arabicdialect`
 
